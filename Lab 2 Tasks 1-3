@@ -1,0 +1,75 @@
+Task 1
+
+fun main(){
+val uni="iau"
+val coursecode="CSC 402"
+val credit hourse= 3
+val isElective= false 
+var StudentEnrolled= 28
+
+println("$courseCode has StudentEnrolled students enrolled ($credithours credit hours).")
+
+StudentEnrolled=StudentEnrolled+2
+
+println("$courseCode has StudentEnrolled students enrolled ($credithours credit hours).")
+
+Println("University name length: ${university-length?")
+}
+---------------------------------------------------------------------------------------------------------------
+Task 2 
+-------------------------------
+GreetStudent Function 
+-------------------------------
+fun main() {
+println("Aljazi K. Alabdulqader, Jory A. Alnaim ")
+
+fun greetStudent (name: String, course: String=("CSC 402"): String {
+return "Welcome to $course, $name! "
+}
+
+println(greetStudent ("Jazi")) 
+println(greetStudent ("Jory", "CSC 405"))
+}
+
+-------------------------------
+FinalMark Function 
+-------------------------------
+fun main() {
+println("Aljazi K. Alabdulqader, Jory A. Alnaim")
+
+fun finalMark(quiz: Double, project: Double, finalexam: Double): Double {
+return 0.1 * quiz + 0.7 * project + 0.2 * finalexam
+｝
+
+println(finalMark(20.0, 50.0, 100.0))
+println(finalMark(project=50.0 , quiz= 20.0, finalexam= 100.0))
+}
+
+-------------------------------
+PrintBanner Function 
+-------------------------------
+fun main() {
+println("Aljazi K. Alabdulqader, Jory A. Alnaim")
+
+fun PrintBanner(title: String, width: Int = 40) {
+println("---------------------------")
+println("$title")
+println("---------------------------")
+｝
+
+println(PrintBanner("Aljazi & Jory Yalaba")
+}
+
+---------------------------------------------------------------------------------------------------------------
+Task 3 
+-------------------------------
+Status Function 
+-------------------------------
+fun Status (mark: Int): String {
+if (mark > 60) return "Pass"
+else
+return "fail"
+}
+
+println (Status (70))
+}
